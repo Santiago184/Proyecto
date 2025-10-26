@@ -1,0 +1,109 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Caja del formulario */
+.login-box {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    border-radius: 50px;
+    background-color: #007bff;
+    padding: 10px;
+}
+
+/* Estilo de los grupos de entrada */
+.input-group {
+    margin-bottom: 20px;
+    
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+}
+
+/* Botón de inicio de sesión */
+.button-group {
+    text-align: center;
+    
+}
+
+.button-group a {
+    width: 100%;
+    padding: 12px 100px 12px 100px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-group button:hover {
+    background-color: #0056b3;
+}
+
+/* Enlaces en el pie de página */
+.footer-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
